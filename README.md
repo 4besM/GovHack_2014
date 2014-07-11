@@ -1,4 +1,4 @@
-==========GovHack_2014==========
+GovHack_2014
 ============
 
 This is our GovHack 2014 repository (for team Forbes, Jack, Mark and Jackson). Here we will include all code/ideas
