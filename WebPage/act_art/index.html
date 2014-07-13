@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="icon" href="img/art_icon.png">
+    <title>ACT Art Finder</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Fonts -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- Custom Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<script language="JavaScript">
+		function autoResize(id){
+    	var newheight;
+    	var newwidth;
+    	if(document.getElementById){
+        	newheight=document.getElementById(id).contentWindow.document .body.scrollHeight;
+        	newwidth=document.getElementById(id).contentWindow.document .body.scrollWidth;
+    	}
+    	document.getElementById(id).height= (newheight) + "px";
+    	document.getElementById(id).width= (newwidth) + "px";
+	}
+	</script>
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#team">The Team</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#data">Data</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li> 
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <section class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">ACT Art Finder</h1>
+                        	<p class="intro-text">A free web and iOS application created by Command-X (Canberra Grammar School Code Cadets) that gives the location of public art and arts facilities in the ACT.</p>
+                        <div class="page-scroll">
+                            <a href="#about" class="btn btn-circle">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="container content-section text-center" style="top:0;margin-top:0;padding-top:0;">
+        <div class="row" style="top:0;margin-top:0;padding-top:0;">
+            <div class="col-lg-8 col-lg-offset-2" style="top:0;margin-top:0;padding-top:0;float: left; width: 50%; margin: 0; padding: 0">
+                <br/><br/>
+                <hr/>
+                <h2>About ACT Art Finder</h2>
+                	<hr/>
+                	<p>ACT Art Finder is a web and iOS application created by Command-X during 
+                		<a href="http://www.govhack.org/" target="_blank">GovHack 2014</a>
+                	. It gives the location of arts facilities and exhibits in the ACT.</p>
+                	<p>It is designed to to help Canberra's citizens and tourists appreciate all of the art facilities and exhibits around the nation's capital. It includes data on over 120 beautiful art exhibits and 13 art facilities, giving the user a great view of where art is near them. The data is displayed on a Google Map so as to provide a useful, well-designed interface to find information about art in the ACT.</p>
+                	<p>Download the source code for iOS from GitHub 
+                		<a href="https://github.com/4besM/GovHack_2014/" target="_blank">here</a>
+                	, which includes an "I've been there" list that tracks which artworks you have visited. In the future, we plan to add in a location feature that displays your current location, as well as a display that shows how far away art is from you and what is closest to you.</p>
+                	<p>Scroll down to "Data" for the basic web version of this app.</p> 
+            </div>
+            <div style="float: right; margin: 0; padding: 0; margin-top: 50px">
+            	<img width="90%" src="img/iphone.png" alt="This image cannot be displayed"/>
+            </div>
+        </div>
+    </section>               
+    <section id="team" class="container content-section text-center" style="top:0;margin-top:0;padding-top:0;">
+        <div class="row" style="top:0;margin-top:0;padding-top:0;">
+            <div class="col-lg-8 col-lg-offset-2" style="top:0;margin-top:0;padding-top:0;">
+                <br/><br/>
+                <hr/>
+                <h2>The Team<hr/></h2>
+                	<p>Command-X are a group of four of Canberra Grammar School's Code Cadets who competed in GovHack 2014.</p>
+					<h3>Jack Carey</h3>
+						<p>Is in Year 7, part of the Code Cadets group. His programming skills include knowledge of Python and C++. He also works with Arduinos.</p>
+					<h3>Forbes Mailler</h3>
+						<p>Is in Year 8, part of the Code Cadets group. His programming skills include knowledge of Python, HTML, CSS and PHP.</p>
+					<h3>Jackson Bretton</h3>
+						<p>Is in Year 10, studying Year 10 IST. His programming skills include knowledge of web development languages and Objective-C.</p>
+					<h3>Mark Glanville</h3>
+						<p>Is in Year 10, studying Year 10 IST. His programming skills include knowledge of Python, web development languages and Objective-C.</p>
+            </div>
+        </div>
+    </section>
+    <section id="data" class="content-section text-center" style="top:0;margin-top:0;padding-top:0;">
+        <div class="download-section" style="top:0;margin-top:0;padding-top:0;">
+            <div class="container" style="top:0;margin-top:0;padding-top:0;">
+                <div>
+                    <br/><br/>
+                    <hr/>
+                    <h2>Data</h2>
+                    	<hr/>
+                	    <h3>Map</h3>
+            		    	<p>
+            		    		<span style="color: blue;">Blue</span>
+            		    	icons are art facilities, such as galleries.</p>
+                    		<p>
+                    			<span style="color: red;">Red</span>
+                    		icons are art exhibits, such as public art displays.</p>
+							<iframe alt="The data could not be displayed. Try refeshing the page. Apologies for any inconvenience." width="100%" height="600" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col7+from+1c47MIQEwL6fLRndrNVGV5vQXpoHkFHhP9vqaOgXb&viz=MAP&h=false&lat=-35.19008338096454&lng=149.07330764013682&t=1&z=11&l=col7&y=2&tmplt=2&hml=TWO_COL_LAT_LNG"></iframe>
+							<a href="https://www.google.com/fusiontables/embedviz?q=select+col7+from+1c47MIQEwL6fLRndrNVGV5vQXpoHkFHhP9vqaOgXb&viz=MAP&h=false&lat=-35.19008338096454&lng=149.07330764013682&t=1&z=11&l=col7&y=2&tmplt=2&hml=TWO_COL_LAT_LNG" target="_blank">Fullscreen map view (opens in new window)</a>
+							<br/><br/>
+                		<h3>Lists</h3>
+                			<h4>Exhibits</h4>
+                				<iframe alt="The data could not be displayed. Try refeshing the page. Apologies for any inconvenience." width="100%" height="600" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col0%2C+col1%2C+col2%2C+col3%2C+col4%2C+col5%2C+col6%2C+col7%2C+col8%2C+col9%2C+col10+from+1jNwoA0OqYaUxF1mWhkfD1Sl3orIhohrp1Rr3YmFJ&amp;containerId=googft-gviz-canvas"></iframe>
+								<a href="https://www.google.com/fusiontables/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col0%2C+col1%2C+col2%2C+col3%2C+col4%2C+col5%2C+col6%2C+col7%2C+col8%2C+col9%2C+col10+from+1jNwoA0OqYaUxF1mWhkfD1Sl3orIhohrp1Rr3YmFJ&amp;containerId=googft-gviz-canvas" target="_blank">Fullscreen list view (opens in new window)</a>
+								<br/><br/>
+                			<h4>Facilities</h4>
+                				<iframe alt="The data could not be displayed. Try refeshing the page. Apologies for any inconvenience." width="100%" height="600" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col0%2C+col1%2C+col2%2C+col3+from+1NaqauM0IwSxzOrDI9eNBhe_huBHIj-fe026SIbQn&amp;containerId=googft-gviz-canvas" style="margin-bottom: 0; padding-bottom: 0;"></iframe>
+								<a href="https://www.google.com/fusiontables/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col0%2C+col1%2C+col2%2C+col3+from+1NaqauM0IwSxzOrDI9eNBhe_huBHIj-fe026SIbQn&amp;containerId=googft-gviz-canvas" style="margin: 0; padding: 0;" target="_blank">Fullscreen list view (opens in new window)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="container content-section text-center" style="top:0;margin-top:0;padding-top:0;">
+        <div class="row" style="top:0;margin-top:0;padding-top:0;">
+            <div class="col-lg-8 col-lg-offset-2" style="top:0;margin-top:0;padding-top:0;">
+                <br/><br/>
+                <hr/>
+                <h2>Contact us</h2>
+                	<hr/>
+            	    <p>Feel free to email us below to provide some feedback or suggestions to ACT Art Finder.</p>
+            	    <a href="mailto:commandx.govhack@gmail.com">commandx.govhack@gmail.com</a>
+           </div>
+        </div>
+    </section>
+    <!-- Core JavaScript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+</body>
+</html>
